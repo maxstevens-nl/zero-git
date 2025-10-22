@@ -30,7 +30,7 @@
 		"@zero-git/zero": "workspace:*",
 		"dompurify": "^3.2.6",
 		"fuse.js": "^7.1.0",
-		"hono": "^4.7.10",
+		"hono": "^4.10.2",
 		"marked": "^15.0.12",
 		"nanoid": "^5.1.5",
 		"pinia": "^3.0.2",
