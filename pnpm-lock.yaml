@@ -227,8 +227,8 @@ importers:
         specifier: ^8.0.2
         version: 8.0.4
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.2
+        version: 3.6.2
       tailwind-variants:
         specifier: ^1.0.0
         version: 1.0.0(tailwindcss@4.1.17)
@@ -344,7 +344,7 @@ importers:
     dependencies:
       '@rocicorp/zero':
         specifier: ^0.19.0
-        version: 0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3)
+        version: 0.19.2025051702(typescript@5.9.3)
       '@zero-git/auth':
         specifier: workspace:*
         version: link:../auth
@@ -363,7 +363,7 @@ importers:
         version: link:../typescript-config
       drizzle-zero:
         specifier: ^0.10.1
-        version: 0.10.8(@rocicorp/zero@0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.5.3)
+        version: 0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2)
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -4861,6 +4861,11 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   pretty-ms@9.2.0:
     resolution: {integrity: sha512-4yf0QO/sllf/1zbZWYnvWw3NxCQwLXKzIj0G849LSufP15BXKM0rbD2Z3wVnkMfjdn/CB0Dpp444gYAACdsplg==}
     engines: {node: '>=18'}
@@ -8139,72 +8144,11 @@ snapshots:
       parse-prometheus-text-format: 1.1.1
       pg-format: pg-format-fix@1.0.5
       postgres: 3.4.7
-      prettier: 3.5.3
+      prettier: 3.6.2
       semver: 7.7.2
       tsx: 4.20.6
       typedoc: 0.28.5(typescript@5.8.3)
       typedoc-plugin-markdown: 4.6.4(typedoc@0.28.5(typescript@5.8.3))
-      url-pattern: 1.0.3
-      ws: 8.18.2
-    transitivePeerDependencies:
-      - '@75lb/nature'
-      - '@opentelemetry/core'
-      - bufferutil
-      - encoding
-      - supports-color
-      - typescript
-      - utf-8-validate
-
-  '@rocicorp/zero@0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3)':
-    dependencies:
-      '@badrap/valita': 0.3.11
-      '@databases/escape-identifier': 1.0.3
-      '@databases/sql': 3.3.0
-      '@dotenvx/dotenvx': 1.44.1
-      '@drdgvhbh/postgres-error-codes': 0.0.6
-      '@fastify/cors': 10.1.0
-      '@fastify/websocket': 11.1.0
-      '@google-cloud/precise-date': 4.0.0
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.200.0
-      '@opentelemetry/auto-instrumentations-node': 0.58.1(@opentelemetry/api@1.9.0)(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))
-      '@opentelemetry/exporter-logs-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/exporter-metrics-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/exporter-trace-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 2.0.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-logs': 0.200.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-metrics': 2.0.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-node': 0.200.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-node': 2.0.1(@opentelemetry/api@1.9.0)
-      '@postgresql-typed/oids': 0.2.0
-      '@rocicorp/lock': 1.0.4
-      '@rocicorp/logger': 5.4.0
-      '@rocicorp/resolver': 1.0.2
-      '@rocicorp/zero-sqlite3': 1.0.5
-      '@types/basic-auth': 1.1.8
-      basic-auth: 2.0.1
-      chalk: 5.4.1
-      chalk-template: 1.1.0
-      chokidar: 4.0.3
-      command-line-args: 6.0.1
-      command-line-usage: 7.0.3
-      compare-utf8: 0.1.1
-      defu: 6.1.4
-      eventemitter3: 5.0.1
-      fastify: 5.3.3
-      jose: 5.10.0
-      js-xxhash: 4.0.0
-      json-custom-numbers: 3.1.1
-      kasi: 1.1.1
-      nanoid: 5.1.6
-      parse-prometheus-text-format: 1.1.1
-      pg-format: pg-format-fix@1.0.5
-      postgres: 3.4.7
-      prettier: 3.5.3
-      semver: 7.7.2
-      tsx: 4.20.6
-      typedoc: 0.28.5(typescript@5.9.3)
-      typedoc-plugin-markdown: 4.6.4(typedoc@0.28.5(typescript@5.9.3))
       url-pattern: 1.0.3
       ws: 8.18.2
     transitivePeerDependencies:
@@ -9351,14 +9295,14 @@ snapshots:
     optionalDependencies:
       drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
 
-  drizzle-zero@0.10.8(@rocicorp/zero@0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.5.3):
+  drizzle-zero@0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2):
     dependencies:
-      '@rocicorp/zero': 0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3)
+      '@rocicorp/zero': 0.19.2025051702(typescript@5.9.3)
       commander: 14.0.0
       drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       ts-morph: 26.0.0
     optionalDependencies:
-      prettier: 3.5.3
+      prettier: 3.6.2
 
   duplexify@4.1.3:
     dependencies:
@@ -10716,6 +10660,8 @@ snapshots:
 
   prettier@3.5.3: {}
 
+  prettier@3.6.2: {}
+
   pretty-ms@9.2.0:
     dependencies:
       parse-ms: 4.0.0
@@ -11181,10 +11127,6 @@ snapshots:
     dependencies:
       typedoc: 0.28.5(typescript@5.8.3)
 
-  typedoc-plugin-markdown@4.6.4(typedoc@0.28.5(typescript@5.9.3)):
-    dependencies:
-      typedoc: 0.28.5(typescript@5.9.3)
-
   typedoc@0.28.4(typescript@5.8.3):
     dependencies:
       '@gerrit0/mini-shiki': 3.4.2
@@ -11210,15 +11152,6 @@ snapshots:
       markdown-it: 14.1.0
       minimatch: 9.0.5
       typescript: 5.8.3
-      yaml: 2.8.0
-
-  typedoc@0.28.5(typescript@5.9.3):
-    dependencies:
-      '@gerrit0/mini-shiki': 3.4.2
-      lunr: 2.3.9
-      markdown-it: 14.1.0
-      minimatch: 9.0.5
-      typescript: 5.9.3
       yaml: 2.8.0
 
   typescript-eslint@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.8.3):
