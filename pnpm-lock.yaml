@@ -55,7 +55,7 @@ importers:
         version: 16.6.1
       drizzle-orm:
         specifier: ^0.43.1
-        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       exponential-backoff:
         specifier: ^3.1.2
         version: 3.1.3
@@ -95,7 +95,7 @@ importers:
         version: 3.20.1
       '@nuxt/ui':
         specifier: ^3.1.2
-        version: 3.3.7(@babel/parser@7.28.5)(aws4fetch@1.0.20)(embla-carousel@8.6.0)(typescript@5.8.3)(universal-cookie@7.2.2)(vite@6.4.1(@types/node@22.19.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)(yaml@2.8.0))(vue-router@4.6.3(vue@3.5.24(typescript@5.8.3)))(vue@3.5.24(typescript@5.8.3))(zod@3.24.4)
+        version: 3.3.7(@babel/parser@7.28.5)(aws4fetch@1.0.20)(embla-carousel@8.6.0)(typescript@5.8.3)(universal-cookie@8.0.1)(vite@6.4.1(@types/node@22.19.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)(yaml@2.8.0))(vue-router@4.6.3(vue@3.5.24(typescript@5.8.3)))(vue@3.5.24(typescript@5.8.3))(zod@3.24.4)
       '@openauthjs/openauth':
         specifier: ^0.4.3
         version: 0.4.3(arctic@2.3.4)(hono@4.10.5)
@@ -119,7 +119,7 @@ importers:
         version: 13.9.0(vue@3.5.24(typescript@5.8.3))
       '@vueuse/integrations':
         specifier: ^13.2.0
-        version: 13.9.0(fuse.js@7.1.0)(universal-cookie@7.2.2)(vue@3.5.24(typescript@5.8.3))
+        version: 13.9.0(fuse.js@7.1.0)(universal-cookie@8.0.1)(vue@3.5.24(typescript@5.8.3))
       '@vueuse/router':
         specifier: ^13.2.0
         version: 13.9.0(vue-router@4.6.3(vue@3.5.24(typescript@5.8.3)))(vue@3.5.24(typescript@5.8.3))
@@ -154,8 +154,8 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0
       universal-cookie:
-        specifier: ^7.2.2
-        version: 7.2.2
+        specifier: ^8.0.0
+        version: 8.0.1
       vue:
         specifier: ^3.5.14
         version: 3.5.24(typescript@5.8.3)
@@ -273,7 +273,7 @@ importers:
         version: 2.1.26
       drizzle-orm:
         specifier: ^0.43.1
-        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       nanoid:
         specifier: ^5.1.5
         version: 5.1.6
@@ -286,7 +286,7 @@ importers:
     devDependencies:
       '@types/bun':
         specifier: latest
-        version: 1.3.2(@types/react@19.2.4)
+        version: 1.3.3
 
   packages/auth:
     dependencies:
@@ -311,7 +311,7 @@ importers:
         version: 16.6.1
       drizzle-orm:
         specifier: '>=0.41.0'
-        version: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+        version: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
     devDependencies:
       '@octokit/openapi-types':
         specifier: ^25.0.0
@@ -333,7 +333,7 @@ importers:
         version: 0.31.6
       drizzle-seed:
         specifier: ^0.3.1
-        version: 0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))
+        version: 0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -363,7 +363,7 @@ importers:
         version: link:../typescript-config
       drizzle-zero:
         specifier: ^0.10.1
-        version: 0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2)
+        version: 0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2)
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -2552,6 +2552,9 @@ packages:
   '@types/bun@1.3.2':
     resolution: {integrity: sha512-t15P7k5UIgHKkxwnMNkJbWlh/617rkDGEdSsDbu+qNHTaz9SKf7aC8fiIlUdD5RPpH6GEkP0cK7WlvmrEBRtWg==}
 
+  '@types/bun@1.3.3':
+    resolution: {integrity: sha512-ogrKbJ2X5N0kWLLFKeytG0eHDleBYtngtlbu9cyBKFtNL3cnpDZkNdQj8flVf6WTZUX5ulI9AY1oa7ljhSrp+g==}
+
   '@types/bunyan@1.8.11':
     resolution: {integrity: sha512-758fRH7umIMk5qt5ELmRMff4mLDlN+xyYzC+dkPTdKwbSkJFvz6xwyScrytPU0QIBbRRwbiE8/BIg8bpajerNQ==}
 
@@ -2560,9 +2563,6 @@ packages:
 
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
-
-  '@types/cookie@0.6.0':
-    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
   '@types/deep-eql@4.0.2':
     resolution: {integrity: sha512-c9h9dVVMigMPc4bwTvC5dxqtqJZwQPePsWjPlpSOnojbor6pGqdk541lfA7AqFQr5pB1BRdq0juY9db81BwyFw==}
@@ -3079,6 +3079,9 @@ packages:
     peerDependencies:
       '@types/react': ^19
 
+  bun-types@1.3.3:
+    resolution: {integrity: sha512-z3Xwlg7j2l9JY27x5Qn3Wlyos8YAp0kKRlrePAOjgjMGS5IG6E7Jnlx736vH9UVI4wUICwwhC9anYL++XeOgTQ==}
+
   bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
     engines: {node: '>=18'}
@@ -3213,10 +3216,6 @@ packages:
 
   cookie-es@1.2.2:
     resolution: {integrity: sha512-+W7VmiVINB+ywl1HGXJXmrqkOhpKrIiVZV6tQuV54ZyQC7MMuBt81Vc336GMLoHBq5hV/F9eXgt5Mnx0Rha5Fg==}
-
-  cookie@0.7.2:
-    resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
-    engines: {node: '>= 0.6'}
 
   cookie@1.0.2:
     resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
@@ -5431,8 +5430,8 @@ packages:
     resolution: {integrity: sha512-/JpWMG9s1nBSlXJAQ8EREFTFy3oy6USFd8T6AoBaw1q2GGcF4R9yp3ofg32UODZlYEO5VD0EWE1RpI9XDWyPYg==}
     engines: {node: '>=18.12.0'}
 
-  universal-cookie@7.2.2:
-    resolution: {integrity: sha512-fMiOcS3TmzP2x5QV26pIH3mvhexLIT0HmPa3V7Q7knRfT9HG6kTwq02HZGLPw0sAOXrAmotElGRvTLCMbJsvxQ==}
+  universal-cookie@8.0.1:
+    resolution: {integrity: sha512-B6ks9FLLnP1UbPPcveOidfvB9pHjP+wekP2uRYB9YDfKVpvcjKgy1W5Zj+cEXJ9KTPnqOKGfVDQBmn8/YCQfRg==}
 
   universal-github-app-jwt@2.2.2:
     resolution: {integrity: sha512-dcmbeSrOdTnsjGjUfAlqNDJrhxXizjAz94ija9Qw8YkZ1uu0d+GoZzyH+Jb9tIIqvGsadUfwg+22k5aDqqwzbw==}
@@ -6916,7 +6915,7 @@ snapshots:
       pkg-types: 2.3.0
       std-env: 3.10.0
 
-  '@nuxt/ui@3.3.7(@babel/parser@7.28.5)(aws4fetch@1.0.20)(embla-carousel@8.6.0)(typescript@5.8.3)(universal-cookie@7.2.2)(vite@6.4.1(@types/node@22.19.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)(yaml@2.8.0))(vue-router@4.6.3(vue@3.5.24(typescript@5.8.3)))(vue@3.5.24(typescript@5.8.3))(zod@3.24.4)':
+  '@nuxt/ui@3.3.7(@babel/parser@7.28.5)(aws4fetch@1.0.20)(embla-carousel@8.6.0)(typescript@5.8.3)(universal-cookie@8.0.1)(vite@6.4.1(@types/node@22.19.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)(yaml@2.8.0))(vue-router@4.6.3(vue@3.5.24(typescript@5.8.3)))(vue@3.5.24(typescript@5.8.3))(zod@3.24.4)':
     dependencies:
       '@iconify/vue': 5.0.0(vue@3.5.24(typescript@5.8.3))
       '@internationalized/date': 3.10.0
@@ -6932,7 +6931,7 @@ snapshots:
       '@tanstack/vue-table': 8.21.3(vue@3.5.24(typescript@5.8.3))
       '@unhead/vue': 2.0.19(vue@3.5.24(typescript@5.8.3))
       '@vueuse/core': 13.9.0(vue@3.5.24(typescript@5.8.3))
-      '@vueuse/integrations': 13.9.0(fuse.js@7.1.0)(universal-cookie@7.2.2)(vue@3.5.24(typescript@5.8.3))
+      '@vueuse/integrations': 13.9.0(fuse.js@7.1.0)(universal-cookie@8.0.1)(vue@3.5.24(typescript@5.8.3))
       colortranslator: 5.0.0
       consola: 3.4.2
       defu: 6.1.4
@@ -8376,6 +8375,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
+  '@types/bun@1.3.3':
+    dependencies:
+      bun-types: 1.3.3
+
   '@types/bunyan@1.8.11':
     dependencies:
       '@types/node': 22.19.1
@@ -8387,8 +8390,6 @@ snapshots:
   '@types/connect@3.4.38':
     dependencies:
       '@types/node': 22.19.1
-
-  '@types/cookie@0.6.0': {}
 
   '@types/deep-eql@4.0.2': {}
 
@@ -8813,14 +8814,14 @@ snapshots:
       '@vueuse/shared': 13.9.0(vue@3.5.24(typescript@5.8.3))
       vue: 3.5.24(typescript@5.8.3)
 
-  '@vueuse/integrations@13.9.0(fuse.js@7.1.0)(universal-cookie@7.2.2)(vue@3.5.24(typescript@5.8.3))':
+  '@vueuse/integrations@13.9.0(fuse.js@7.1.0)(universal-cookie@8.0.1)(vue@3.5.24(typescript@5.8.3))':
     dependencies:
       '@vueuse/core': 13.9.0(vue@3.5.24(typescript@5.8.3))
       '@vueuse/shared': 13.9.0(vue@3.5.24(typescript@5.8.3))
       vue: 3.5.24(typescript@5.8.3)
     optionalDependencies:
       fuse.js: 7.1.0
-      universal-cookie: 7.2.2
+      universal-cookie: 8.0.1
 
   '@vueuse/metadata@10.11.1': {}
 
@@ -9003,6 +9004,10 @@ snapshots:
       '@types/node': 24.10.1
       '@types/react': 19.2.4
 
+  bun-types@1.3.3:
+    dependencies:
+      '@types/node': 22.19.1
+
   bundle-name@4.1.0:
     dependencies:
       run-applescript: 7.0.0
@@ -9123,8 +9128,6 @@ snapshots:
   convert-source-map@2.0.0: {}
 
   cookie-es@1.2.2: {}
-
-  cookie@0.7.2: {}
 
   cookie@1.0.2: {}
 
@@ -9271,35 +9274,35 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
+  drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.15.6
-      bun-types: 1.3.2(@types/react@19.2.4)
+      bun-types: 1.3.3
       gel: 2.0.2
       pg: 8.16.3
       postgres: 3.4.7
 
-  drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
+  drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.15.6
-      bun-types: 1.3.2(@types/react@19.2.4)
+      bun-types: 1.3.3
       gel: 2.0.2
       pg: 8.16.3
       postgres: 3.4.7
 
-  drizzle-seed@0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)):
+  drizzle-seed@0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)):
     dependencies:
       pure-rand: 6.1.0
     optionalDependencies:
-      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
 
-  drizzle-zero@0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2):
+  drizzle-zero@0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2):
     dependencies:
       '@rocicorp/zero': 0.19.2025051702(typescript@5.9.3)
       commander: 14.0.0
-      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       ts-morph: 26.0.0
     optionalDependencies:
       prettier: 3.6.2
@@ -10684,7 +10687,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.10.1
+      '@types/node': 22.19.1
       long: 5.3.2
 
   pump@3.0.2:
@@ -11226,10 +11229,9 @@ snapshots:
       unplugin: 2.3.10
       unplugin-utils: 0.3.1
 
-  universal-cookie@7.2.2:
+  universal-cookie@8.0.1:
     dependencies:
-      '@types/cookie': 0.6.0
-      cookie: 0.7.2
+      cookie: 1.0.2
 
   universal-github-app-jwt@2.2.2: {}
 
