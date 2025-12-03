@@ -55,7 +55,7 @@ importers:
         version: 16.6.1
       drizzle-orm:
         specifier: ^0.43.1
-        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       exponential-backoff:
         specifier: ^3.1.2
         version: 3.1.3
@@ -186,7 +186,7 @@ importers:
         version: 4.1.17(vite@6.4.1(@types/node@22.19.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)(yaml@2.8.0))
       '@tsconfig/node22':
         specifier: ^22.0.2
-        version: 22.0.2
+        version: 22.0.5
       '@types/jsdom':
         specifier: ^21.1.7
         version: 21.1.7
@@ -273,7 +273,7 @@ importers:
         version: 2.1.26
       drizzle-orm:
         specifier: ^0.43.1
-        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+        version: 0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       nanoid:
         specifier: ^5.1.5
         version: 5.1.6
@@ -286,7 +286,7 @@ importers:
     devDependencies:
       '@types/bun':
         specifier: latest
-        version: 1.3.2(@types/react@19.2.4)
+        version: 1.3.3
 
   packages/auth:
     dependencies:
@@ -311,7 +311,7 @@ importers:
         version: 16.6.1
       drizzle-orm:
         specifier: '>=0.41.0'
-        version: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+        version: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
     devDependencies:
       '@octokit/openapi-types':
         specifier: ^25.0.0
@@ -333,7 +333,7 @@ importers:
         version: 0.31.6
       drizzle-seed:
         specifier: ^0.3.1
-        version: 0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))
+        version: 0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -344,7 +344,7 @@ importers:
     dependencies:
       '@rocicorp/zero':
         specifier: ^0.19.0
-        version: 0.19.2025051702(typescript@5.9.3)
+        version: 0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3)
       '@zero-git/auth':
         specifier: workspace:*
         version: link:../auth
@@ -363,7 +363,7 @@ importers:
         version: link:../typescript-config
       drizzle-zero:
         specifier: ^0.10.1
-        version: 0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2)
+        version: 0.10.8(@rocicorp/zero@0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2)
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -2537,8 +2537,8 @@ packages:
   '@tsconfig/bun@1.0.9':
     resolution: {integrity: sha512-4M0/Ivfwcpz325z6CwSifOBZYji3DFOEpY6zEUt0+Xi2qRhzwvmqQN9XAHJh3OVvRJuAqVTLU2abdCplvp6mwQ==}
 
-  '@tsconfig/node22@22.0.2':
-    resolution: {integrity: sha512-Kmwj4u8sDRDrMYRoN9FDEcXD8UpBSaPQQ24Gz+Gamqfm7xxn+GBR7ge/Z7pK8OXNGyUzbSwJj+TH6B+DS/epyA==}
+  '@tsconfig/node22@22.0.5':
+    resolution: {integrity: sha512-hLf2ld+sYN/BtOJjHUWOk568dvjFQkHnLNa6zce25GIH+vxKfvTgm3qpaH6ToF5tu/NN0IH66s+Bb5wElHrLcw==}
 
   '@types/aws-lambda@8.10.147':
     resolution: {integrity: sha512-nD0Z9fNIZcxYX5Mai2CTmFD7wX7UldCkW2ezCF8D1T5hdiLsnTWDGRpfRYntU6VjTdLQjOvyszru7I1c1oCQew==}
@@ -2551,6 +2551,9 @@ packages:
 
   '@types/bun@1.3.2':
     resolution: {integrity: sha512-t15P7k5UIgHKkxwnMNkJbWlh/617rkDGEdSsDbu+qNHTaz9SKf7aC8fiIlUdD5RPpH6GEkP0cK7WlvmrEBRtWg==}
+
+  '@types/bun@1.3.3':
+    resolution: {integrity: sha512-ogrKbJ2X5N0kWLLFKeytG0eHDleBYtngtlbu9cyBKFtNL3cnpDZkNdQj8flVf6WTZUX5ulI9AY1oa7ljhSrp+g==}
 
   '@types/bunyan@1.8.11':
     resolution: {integrity: sha512-758fRH7umIMk5qt5ELmRMff4mLDlN+xyYzC+dkPTdKwbSkJFvz6xwyScrytPU0QIBbRRwbiE8/BIg8bpajerNQ==}
@@ -3079,6 +3082,9 @@ packages:
     peerDependencies:
       '@types/react': ^19
 
+  bun-types@1.3.3:
+    resolution: {integrity: sha512-z3Xwlg7j2l9JY27x5Qn3Wlyos8YAp0kKRlrePAOjgjMGS5IG6E7Jnlx736vH9UVI4wUICwwhC9anYL++XeOgTQ==}
+
   bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
     engines: {node: '>=18'}
@@ -3273,6 +3279,9 @@ packages:
 
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+
+  csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
   data-urls@5.0.0:
     resolution: {integrity: sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==}
@@ -8160,6 +8169,67 @@ snapshots:
       - typescript
       - utf-8-validate
 
+  '@rocicorp/zero@0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3)':
+    dependencies:
+      '@badrap/valita': 0.3.11
+      '@databases/escape-identifier': 1.0.3
+      '@databases/sql': 3.3.0
+      '@dotenvx/dotenvx': 1.44.1
+      '@drdgvhbh/postgres-error-codes': 0.0.6
+      '@fastify/cors': 10.1.0
+      '@fastify/websocket': 11.1.0
+      '@google-cloud/precise-date': 4.0.0
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/api-logs': 0.200.0
+      '@opentelemetry/auto-instrumentations-node': 0.58.1(@opentelemetry/api@1.9.0)(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))
+      '@opentelemetry/exporter-logs-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/exporter-metrics-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/exporter-trace-otlp-http': 0.200.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 2.0.1(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-logs': 0.200.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-metrics': 2.0.1(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-node': 0.200.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-node': 2.0.1(@opentelemetry/api@1.9.0)
+      '@postgresql-typed/oids': 0.2.0
+      '@rocicorp/lock': 1.0.4
+      '@rocicorp/logger': 5.4.0
+      '@rocicorp/resolver': 1.0.2
+      '@rocicorp/zero-sqlite3': 1.0.5
+      '@types/basic-auth': 1.1.8
+      basic-auth: 2.0.1
+      chalk: 5.4.1
+      chalk-template: 1.1.0
+      chokidar: 4.0.3
+      command-line-args: 6.0.1
+      command-line-usage: 7.0.3
+      compare-utf8: 0.1.1
+      defu: 6.1.4
+      eventemitter3: 5.0.1
+      fastify: 5.3.3
+      jose: 5.10.0
+      js-xxhash: 4.0.0
+      json-custom-numbers: 3.1.1
+      kasi: 1.1.1
+      nanoid: 5.1.6
+      parse-prometheus-text-format: 1.1.1
+      pg-format: pg-format-fix@1.0.5
+      postgres: 3.4.7
+      prettier: 3.6.2
+      semver: 7.7.2
+      tsx: 4.20.6
+      typedoc: 0.28.5(typescript@5.9.3)
+      typedoc-plugin-markdown: 4.6.4(typedoc@0.28.5(typescript@5.9.3))
+      url-pattern: 1.0.3
+      ws: 8.18.2
+    transitivePeerDependencies:
+      - '@75lb/nature'
+      - '@opentelemetry/core'
+      - bufferutil
+      - encoding
+      - supports-color
+      - typescript
+      - utf-8-validate
+
   '@rollup/pluginutils@5.1.4(rollup@4.41.0)':
     dependencies:
       '@types/estree': 1.0.7
@@ -8360,7 +8430,7 @@ snapshots:
 
   '@tsconfig/bun@1.0.9': {}
 
-  '@tsconfig/node22@22.0.2': {}
+  '@tsconfig/node22@22.0.5': {}
 
   '@types/aws-lambda@8.10.147': {}
 
@@ -8375,6 +8445,10 @@ snapshots:
       bun-types: 1.3.2(@types/react@19.2.4)
     transitivePeerDependencies:
       - '@types/react'
+
+  '@types/bun@1.3.3':
+    dependencies:
+      bun-types: 1.3.3
 
   '@types/bunyan@1.8.11':
     dependencies:
@@ -8446,7 +8520,7 @@ snapshots:
 
   '@types/react@19.2.4':
     dependencies:
-      csstype: 3.1.3
+      csstype: 3.2.3
 
   '@types/shimmer@1.2.0': {}
 
@@ -9003,6 +9077,10 @@ snapshots:
       '@types/node': 24.10.1
       '@types/react': 19.2.4
 
+  bun-types@1.3.3:
+    dependencies:
+      '@types/node': 24.10.1
+
   bundle-name@4.1.0:
     dependencies:
       run-applescript: 7.0.0
@@ -9188,6 +9266,8 @@ snapshots:
 
   csstype@3.1.3: {}
 
+  csstype@3.2.3: {}
+
   data-urls@5.0.0:
     dependencies:
       whatwg-mimetype: 4.0.0
@@ -9271,35 +9351,35 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
+  drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.15.6
-      bun-types: 1.3.2(@types/react@19.2.4)
+      bun-types: 1.3.3
       gel: 2.0.2
       pg: 8.16.3
       postgres: 3.4.7
 
-  drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
+  drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7):
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.15.6
-      bun-types: 1.3.2(@types/react@19.2.4)
+      bun-types: 1.3.3
       gel: 2.0.2
       pg: 8.16.3
       postgres: 3.4.7
 
-  drizzle-seed@0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)):
+  drizzle-seed@0.3.1(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)):
     dependencies:
       pure-rand: 6.1.0
     optionalDependencies:
-      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
 
-  drizzle-zero@0.10.8(@rocicorp/zero@0.19.2025051702(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2):
+  drizzle-zero@0.10.8(@rocicorp/zero@0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3))(drizzle-orm@0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7))(prettier@3.6.2):
     dependencies:
-      '@rocicorp/zero': 0.19.2025051702(typescript@5.9.3)
+      '@rocicorp/zero': 0.20.2025052100(@opentelemetry/core@2.0.1(@opentelemetry/api@1.9.0))(typescript@5.9.3)
       commander: 14.0.0
-      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.2(@types/react@19.2.4))(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
+      drizzle-orm: 0.44.2(@opentelemetry/api@1.9.0)(@types/pg@8.15.6)(bun-types@1.3.3)(gel@2.0.2)(pg@8.16.3)(postgres@3.4.7)
       ts-morph: 26.0.0
     optionalDependencies:
       prettier: 3.6.2
@@ -11127,6 +11207,10 @@ snapshots:
     dependencies:
       typedoc: 0.28.5(typescript@5.8.3)
 
+  typedoc-plugin-markdown@4.6.4(typedoc@0.28.5(typescript@5.9.3)):
+    dependencies:
+      typedoc: 0.28.5(typescript@5.9.3)
+
   typedoc@0.28.4(typescript@5.8.3):
     dependencies:
       '@gerrit0/mini-shiki': 3.4.2
@@ -11152,6 +11236,15 @@ snapshots:
       markdown-it: 14.1.0
       minimatch: 9.0.5
       typescript: 5.8.3
+      yaml: 2.8.0
+
+  typedoc@0.28.5(typescript@5.9.3):
+    dependencies:
+      '@gerrit0/mini-shiki': 3.4.2
+      lunr: 2.3.9
+      markdown-it: 14.1.0
+      minimatch: 9.0.5
+      typescript: 5.9.3
       yaml: 2.8.0
 
   typescript-eslint@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.8.3):
