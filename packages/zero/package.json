@@ -22,7 +22,7 @@
 		"@types/bun": "^1.2.14",
 		"@zero-git/db": "workspace:*",
 		"@zero-git/typescript-config": "workspace:*",
-		"drizzle-zero": "^0.10.1",
+		"drizzle-zero": "^0.17.0",
 		"typescript": "^5.8.3"
 	}
 }
