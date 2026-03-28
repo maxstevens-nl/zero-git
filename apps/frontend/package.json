@@ -28,7 +28,7 @@
 		"@vueuse/integrations": "^13.2.0",
 		"@vueuse/router": "^13.2.0",
 		"@zero-git/zero": "workspace:*",
-		"dompurify": "^3.2.6",
+		"dompurify": "^3.3.2",
 		"fuse.js": "^7.1.0",
 		"hono": "^4.7.10",
 		"marked": "^15.0.12",
