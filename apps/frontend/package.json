@@ -46,7 +46,7 @@
 	"devDependencies": {
 		"@eslint/compat": "^1.2.9",
 		"@eslint/js": "^9.27.0",
-		"@faker-js/faker": "^9.8.0",
+		"@faker-js/faker": "^10.0.0",
 		"@playwright/test": "^1.52.0",
 		"@tailwindcss/vite": "^4.1.7",
 		"@tsconfig/node22": "^22.0.2",
